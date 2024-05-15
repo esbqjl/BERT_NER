@@ -1,0 +1,15 @@
+*.pyc
+*~
+__pycache__
+.DS_Store
+.env
+*.db
+.coverage
+/model/bert-base-uncased/*.bin
+*.bin
+
+/data/*
+!/data/raw
+!/data/config.jsonl
+!/data/data.jsonl.gz
+./run
