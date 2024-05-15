@@ -40,7 +40,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone [https://github.com/esbqjl/text_classification.git](https://github.com/esbqjl/BERT_NER.git)
+   git clone https://github.com/esbqjl/BERT_NER.git
    ```
 2. Install various packages
    ```sh
