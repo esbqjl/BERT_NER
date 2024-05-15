@@ -77,7 +77,9 @@ Please checkout the result using `tensorboard --logdir ./runs`.
 
 "From the results, I understand that simply adding a new training layer after BERT contributes minimally to fine-tuning; the final F1 score did not improve significantly. This may be due to the complexity of the dataset. If we decide to add a CRF layer, it is crucial to increase the learning rate to 100 or 1000 times that of the original BERT training rate, as it will enhance the convergence speed of our CRF layer.
 
-This is the first time I am participating in this competition, and the data is very difficult for training a decent model. On the leaderboard, the top score is 72, which is quite impressive."
+This is the first time I am participating in this competition, and the data is very difficult for training a decent model. On the leaderboard, the top score is 72, I only reach 60 which is quite ackward."
+
+I also tested anoyher dataset, was on test.py, the result is up to 90% accuracy (without O tags), this could prove the codes are correct
 
 <!-- Contact -->
 ## Contact
